@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/best-health-insurance">
         {/* basename={basename} */}
         {window.location.pathname !== "/pricing" &&
         window.location.pathname !== "/health-pricing" &&
@@ -36,10 +36,10 @@ function App() {
         )}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
+          {/* <Route
             path="/"
             element={<ContactUs onPriceChange={handlePriceChange} />}
-          />
+          /> */}
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/health-pricing" element={<PricingPlan />} />
           <Route path="/admin" element={<Dashboard />} />
