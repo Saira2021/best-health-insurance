@@ -1,0 +1,71 @@
+.home-carousel {
+  /* width: 100%; */
+}
+.carousel-paper-style {
+  margin-top: 61px;
+  width: 100%;
+  /* position: relative; */
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  /* background-image: url(""); */
+}
+.service-container {
+  margin-top: 30px;
+}
+.serice-heading {
+  text-align: center;
+}
+.card-main-title {
+  font-weight: 700;
+}
+.about-us-container {
+  text-align: center;
+}
+.service-container {
+  padding: 10px 30px;
+}
+
+/* ----- Our Plans Styling ----- */
+.plans-heading {
+  text-align: center;
+  color: #1976d2;
+}
+.our-plans-container {
+  padding: 10px 30px;
+}
+.plan-card {
+  /* padding: 10px; */
+  margin: 10px;
+}
+.cards-style {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+@media (min-width: 250px) and (max-width: 860px) {
+  .cards-style {
+    display: inline-block;
+  }
+}
+/* Contact Pop Up Style */
+.contact-popup-container {
+  position: absolute;
+  right: 0;
+  /* bottom: 0; */
+  /* top: 100; */
+}
+.pop-heading {
+  color: #1976d2;
+}
+.tell-phone-no {
+  color: #1976d2;
+  font-size: 21px;
+  font-weight: 700;
+}
+.admin-panel {
+  padding: 100px;
+}
+.contact-us-form-container {
+  /* padding: 22px 0; */
+  /* border-radius: 7px; */
+}
